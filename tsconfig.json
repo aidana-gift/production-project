@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true, // do not use variables without type
+    "module": "ESNext", // module system
+    "target": "es5", // version to compile code into
+    // react-jsx -> to not use import React from 'react'
+    "jsx": "react-jsx",
+    "allowJs": true, // allows compilator to handle JS files too
+    "moduleResolution": "node", // defines which imports there will be (node | classic)
+    // esModuleInterop дает возможность использовать привычный импорт весто common js
+    // common js -> require() module.export()
+    "esModuleInterop": true,
+    // чтобы вместо этого import * as React from 'react'
+    // можно было писать так import React from 'react'
+    "allowSyntheticDefaultImports": true,
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}
