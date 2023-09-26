@@ -8,6 +8,12 @@
     "jsx": "react-jsx",
     "allowJs": true, // allows compilator to handle JS files too
     "moduleResolution": "node", // defines which imports there will be (node | classic)
+    // for absolute import
+    "baseUrl": ".",
+    "paths": {
+      // все импорты и экспорты будут из папки срс
+      "*": ["./src/*"]
+    },
     // esModuleInterop дает возможность использовать привычный импорт весто common js
     // common js -> require() module.export()
     "esModuleInterop": true,
