@@ -2,5 +2,6 @@
   "main_page": "Main page",
   "about_page": "About page",
   "language": "Rus",
-  "toggle": "Toggle"
+  "toggle": "Toggle",
+  "page_not_found": "Page not found"
 }
