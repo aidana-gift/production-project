@@ -3,5 +3,8 @@
   "about_page": "About page",
   "language": "Rus",
   "toggle": "Toggle",
-  "page_not_found": "Page not found"
+  "page_not_found": "Page not found",
+  "something_wrong": "Something went wrong",
+  "reload_page": "Reload Page",
+  "throw error": "throw error"
 }

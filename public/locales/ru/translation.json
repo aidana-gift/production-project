@@ -3,5 +3,8 @@
   "about_page": "О нас",
   "language": "Eng",
   "toggle": "Переключить",
-  "page_not_found": "Страница не найдена"
+  "page_not_found": "Страница не найдена",
+  "something_wrong": "Произошла ошибка",
+  "reload_page": "Обновить страницу",
+  "throw error": "throw error"
 }
