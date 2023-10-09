@@ -27,6 +27,11 @@
     }
   },
   "include": [
-    "./config/jest/setupTests.ts"
+    "./config/jest/setupTests.ts",
+//    when using include field,
+//    other ts files need to be included too
+//    without it there was error with scss modules import
+    "./src/**/*.ts",
+    "./src/**/*.tsx",
   ]
 }
