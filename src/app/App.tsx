@@ -1,10 +1,10 @@
-import React, { Suspense } from 'react';
-import './styles/index.scss';
+import React, { Suspense, useState } from 'react';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { useTheme } from 'app/providers/ThemeProvider';
 import { Approuter } from 'app/providers/router';
 import { Navbar } from 'widgets/Navbar';
 import { Sidebar } from 'widgets/Sidebar';
+import { Modal } from 'shared/ui/Modal/ui/Modal';
 
 function App() {
     const { theme } = useTheme();
@@ -14,6 +14,7 @@ function App() {
             {/* for using i18n */}
             <Suspense fallback="">
                 <Navbar />
+                {/* eslint-disable-next-line i18next/no-literal-string */}
                 <div className="content-page">
                     <Sidebar />
                     <Approuter />
