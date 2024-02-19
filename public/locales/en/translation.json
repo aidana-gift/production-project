@@ -7,5 +7,7 @@
   "something_wrong": "Something went wrong",
   "reload_page": "Reload Page",
   "throw error": "throw error",
-  "login": "login"
+  "login": "login",
+  "increment": "increment",
+  "decrement": "decrement"
 }

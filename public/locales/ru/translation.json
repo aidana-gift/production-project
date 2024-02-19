@@ -7,5 +7,7 @@
   "something_wrong": "Произошла ошибка",
   "reload_page": "Обновить страницу",
   "throw error": "throw error",
-  "login": "login"
+  "login": "login",
+  "increment": "increment",
+  "decrement": "decrement"
 }

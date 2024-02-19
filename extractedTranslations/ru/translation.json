@@ -7,5 +7,7 @@
   "reload_page": "reload_page",
   "something_wrong": "something_wrong",
   "throw error": "throw error",
-  "toggle": "toggle"
+  "toggle": "toggle",
+  "increment": "increment",
+  "decrement": "decrement"
 }
