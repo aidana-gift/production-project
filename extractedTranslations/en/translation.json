@@ -1,5 +1,7 @@
 {
   "about_page": "about_page",
+  "decrement": "decrement",
+  "increment": "increment",
   "language": "language",
   "login": "login",
   "main_page": "main_page",
@@ -7,7 +9,5 @@
   "reload_page": "reload_page",
   "something_wrong": "something_wrong",
   "throw error": "throw error",
-  "toggle": "toggle",
-  "increment": "increment",
-  "decrement": "decrement"
+  "toggle": "toggle"
 }
