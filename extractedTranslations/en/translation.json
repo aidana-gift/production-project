@@ -1,6 +1,8 @@
 {
   "about_page": "about_page",
   "decrement": "decrement",
+  "enter_password": "enter_password",
+  "enter_username": "enter_username",
   "increment": "increment",
   "language": "language",
   "login": "login",
