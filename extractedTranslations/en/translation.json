@@ -1,4 +1,6 @@
 {
+  "Login form": "Login form",
+  "Login or password is incorrect": "",
   "about_page": "about_page",
   "decrement": "decrement",
   "enter_password": "enter_password",
@@ -6,6 +8,7 @@
   "increment": "increment",
   "language": "language",
   "login": "login",
+  "logout": "logout",
   "main_page": "main_page",
   "page_not_found": "page_not_found",
   "reload_page": "reload_page",

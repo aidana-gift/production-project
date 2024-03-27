@@ -11,5 +11,8 @@
   "increment": "increment",
   "decrement": "decrement",
   "enter_username": "enter_username",
-  "enter_password": "enter_password"
+  "enter_password": "enter_password",
+  "Login form": "Login form",
+  "Login or password is incorrect": "Login or password is incorrect",
+  "logout": "logout"
 }

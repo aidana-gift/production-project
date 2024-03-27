@@ -1,6 +1,6 @@
 // doing this because storybook (like jest)
 // does not understand absolute paths
-import webpack, { RuleSetRule } from 'webpack';
+import webpack, { RuleSetRule, DefinePlugin } from 'webpack';
 import path from 'path';
 import { BuildPaths } from '../build/types/config';
 import { buildCssLoaders } from '../build/loaders/buildCssLoaders';
@@ -23,6 +23,10 @@ export default ({ config }: {config: webpack.Configuration}) => {
 
         return rule;
     });
+
+    config.plugins.push(new DefinePlugin({
+        __IS_DEV__: true,
+    }));
 
     config.module.rules.push({
         test: /\.svg$/,
